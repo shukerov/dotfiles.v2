@@ -1,0 +1,31 @@
+[user]
+	name = Stoyan Shukerov
+	email = stoichik@gmail.com
+[core]
+	editor = vim
+
+[alias]
+	# shortcut for 'git checkout'
+	co = checkout
+
+	# shortcut for 'git commit'
+	ci = commit
+	
+	# shortcut for 'git commit'
+	ac = commit --amend
+
+	# shortcut for 'git status'
+	st = status
+
+	# shortcut for 'git branch'
+	br = branch
+
+	# shortcut for 'git diff'
+	df = diff
+	
+	# compact and informative commit history view
+	lg = log --graph --oneline --decorate --all
+
+	# informative commit history view
+	log = log --graph --decorate --all
+
