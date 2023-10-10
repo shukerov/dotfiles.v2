@@ -20,6 +20,12 @@ if [ -d ~/.rbenv ]; then
   eval "$(rbenv init -)"
 fi
 
+# load up neovim
+export PATH="$HOME/nvim-linux64/bin:$PATH"
+
+# load up go binary
+export PATH="$PATH:/usr/local/go/bin"
+
 # load nvm
 if [ -d ~/.nvm ]; then
   export NVM_DIR="$HOME/.nvm"
