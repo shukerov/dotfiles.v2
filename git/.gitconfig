@@ -2,7 +2,7 @@
 	name = Stoyan Shukerov
 	email = stoichik@gmail.com
 [core]
-	editor = vim
+	editor = nvim
 
 [alias]
 	# shortcut for 'git checkout'

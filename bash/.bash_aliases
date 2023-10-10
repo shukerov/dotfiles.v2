@@ -51,6 +51,7 @@ alias yr='yarn run '
 ###################
 alias rst='exec $SHELL'
 alias show='kitty +kitten icat '
+alias vim='nvim'
 alias v='vim .'
 alias hack='~/Downloads/matrix.sh'
 alias ll="ls -lah"
@@ -60,6 +61,7 @@ alias tmux="tmux -2"
 if command -v batcat >/dev/null; then
    alias cat='batcat '
 fi
+
 
 # dotfiles configuarion aliases
 alias config='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
