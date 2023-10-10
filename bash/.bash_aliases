@@ -72,11 +72,10 @@ alias ratchet='racket -i -l typed/racket -l typed/rackunit' # racket start with 
 # DIR ALIASES:
 ##############
 
-alias down='cd ~/downloads'
+alias dot='cd ~/.dotfiles'
 alias dev='cd ~/development'
 alias blog='cd ~/development/blog'
-alias senior='cd ~/development/senior_proj/website_js'
-alias sens='cd ~/development/senior_proj/website_js && npm run dev'
+alias down='cd ~/downloads'
 
 # work
 alias car='cd ~/development/carterbrownlaw.github.io'
