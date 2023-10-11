@@ -50,13 +50,20 @@ alias yr='yarn run '
 # PROGRAM SHORTCUTS
 ###################
 alias rst='exec $SHELL'
-alias show='kitty +kitten icat '
 alias vim='nvim'
 alias v='vim .'
-alias hack='~/Downloads/matrix.sh'
 alias ll="ls -lah"
-alias dos2unix="sed $'s/\r//' -i "
 alias tmux="tmux -2"
+
+
+# remove?
+alias show='kitty +kitten icat '
+alias dos2unix="sed $'s/\r//' -i "
+
+#
+# for fun
+alias hack='~/matrix.sh'
+
 # alias cd='command cd && ll'
 if command -v batcat >/dev/null; then
    alias cat='batcat '
