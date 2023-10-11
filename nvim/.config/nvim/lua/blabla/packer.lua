@@ -26,6 +26,9 @@ return require('packer').startup(function(use)
   -- for a better git experience
   use { "tpope/vim-fugitive" }
 
+  -- for a better experience with comments
+  use { "tpope/vim-commentary" }
+
   -- lsp setup
   use {
 	  'VonHeikemen/lsp-zero.nvim',
