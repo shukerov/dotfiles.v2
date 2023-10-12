@@ -29,6 +29,9 @@ return require('packer').startup(function(use)
   -- for a better experience with comments
   use { "tpope/vim-commentary" }
 
+  -- for changing surrounding elements easier
+  use { "tpope/vim-surround" }
+
   -- lsp setup
   use {
 	  'VonHeikemen/lsp-zero.nvim',
