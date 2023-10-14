@@ -5,6 +5,9 @@
 	editor = nvim
 
 [alias]
+  # add all
+  aa = add --all
+
 	# shortcut for 'git checkout'
 	co = checkout
 
@@ -17,6 +20,9 @@
 	# shortcut for 'git status'
 	st = status
 
+  # checkout new branch
+  cb = checkout -b
+
 	# shortcut for 'git branch'
 	br = branch
 
@@ -28,4 +34,7 @@
 
 	# informative commit history view
 	log = log --graph --decorate --all
+
+  # merge with no fast forward
+  mm = merge --no-ff
 
