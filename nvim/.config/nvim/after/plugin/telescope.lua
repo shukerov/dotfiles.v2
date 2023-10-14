@@ -1,6 +1,7 @@
 local telescope = require("telescope")
 local telescopeConfig = require("telescope.config")
 local builtin = require('telescope.builtin')
+local actions = require('telescope.actions')
 
 -- Clone the default Telescope configuration
 local vimgrep_arguments = { unpack(telescopeConfig.values.vimgrep_arguments) }
@@ -15,6 +16,12 @@ telescope.setup({
 	defaults = {
 		-- `hidden = true` is not supported in text grep commands.
 		vimgrep_arguments = vimgrep_arguments,
+    mappings = {
+      i = {
+        ["<esc>"] = actions.close,
+        ["<C-e>"] = actions.select_vertical,
+      }
+    },
 	},
 	pickers = {
 		find_files = {
