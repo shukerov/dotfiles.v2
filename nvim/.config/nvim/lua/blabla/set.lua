@@ -22,3 +22,5 @@ vim.opt.scrolloff = 8
 vim.opt.updatetime = 750
 -- don't wrap lines
 vim.opt.wrap = false
+-- open vertical splits to the right by default
+vim.opt.splitright = true
