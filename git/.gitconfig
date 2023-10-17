@@ -5,36 +5,32 @@
 	editor = nvim
 
 [alias]
-  # add all
-  aa = add --all
-
-	# shortcut for 'git checkout'
 	co = checkout
-
-	# shortcut for 'git commit'
 	ci = commit
-	
-	# shortcut for 'git commit'
+	st = status
+	br = branch
+	df = diff
+  prb = pull --rebase
+  mm = merge --no-ff
 	ca = commit --amend
 
-	# shortcut for 'git status'
-	st = status
+  # add all
+  aa = add --all
 
   # checkout new branch
   cb = checkout -b
 
-	# shortcut for 'git branch'
-	br = branch
-
-	# shortcut for 'git diff'
-	df = diff
-	
 	# compact and informative commit history view
 	lg = log --graph --oneline --decorate --all
 
 	# informative commit history view
 	log = log --graph --decorate --all
 
-  # merge with no fast forward
-  mm = merge --no-ff
+  # fetch remote branches, and clean up ones that were deleted
+  fep = fetch --all --prune
 
+  # reset last commit on local branch
+  un = reset --hard HEAD^ # what is the difference with --soft here? Staged files and maybe keeping local uncommitted files intact?
+
+  pf = push --force-with-lease
+  # safe-ish force push
