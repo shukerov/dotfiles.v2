@@ -35,3 +35,5 @@
   # safe-ish force push
   pf = push --force-with-lease
 
+  # push upstream
+  pu = push -u origin
