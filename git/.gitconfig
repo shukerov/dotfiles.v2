@@ -5,14 +5,14 @@
 	editor = nvim
 
 [alias]
-	co = checkout
-	ci = commit
-	st = status
-	br = branch
-	df = diff
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  df = diff
   prb = pull --rebase
   mm = merge --no-ff
-	ca = commit --amend
+  ca = commit --amend
 
   # add all
   aa = add --all
@@ -20,11 +20,11 @@
   # checkout new branch
   cb = checkout -b
 
-	# compact and informative commit history view
-	lg = log --graph --oneline --decorate --all
+  # compact and informative commit history view
+  lg = log --graph --oneline --decorate --all
 
-	# informative commit history view
-	log = log --graph --decorate --all
+  # informative commit history view
+  log = log --graph --decorate --all
 
   # fetch remote branches, and clean up ones that were deleted
   fep = fetch --all --prune
@@ -32,5 +32,6 @@
   # reset last commit on local branch
   un = reset --hard HEAD^ # what is the difference with --soft here? Staged files and maybe keeping local uncommitted files intact?
 
-  pf = push --force-with-lease
   # safe-ish force push
+  pf = push --force-with-lease
+
